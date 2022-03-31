@@ -19,41 +19,70 @@
 
   <body>
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-    <div class="container">
-        <div class="d-sm-flex align-items-right justify-content-between p-5"></div>
-      <h1>Welcome to Collo's Bank</h1>
+      <div class="container">
+        <div
+          class="d-sm-flex align-items-right justify-content-between p-5"
+        ></div>
+        <h1>Welcome to Collo's Bank</h1>
 
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Register New Account:</h2>
-          <form id="new-contact">
-            <div class="form-group">
-              <label for="new-name">Name</label>
-              <input type="text" class="form-control" id="new-name" />
-            </div>
-            <div class="form-group">
-              <label for="new-initial-deposit">Initial Deposit</label>
-              <input
-                type="text"
-                class="form-control"
-                id="new-initial-deposit"
-              />
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Register New Account:</h2>
+            <form id="new-contact">
+              <div class="form-group">
+                <label for="new-name">Name</label>
+                <input type="text" class="form-control" id="new-name" />
+              </div>
+              <div class="form-group">
+                <label for="new-initial-deposit">Initial Deposit</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="new-initial-deposit"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
     </nav>
 
- 
-
-
-
-
-
-
-
-
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <div
+          class="d-sm-flex align-items-right justify-content-between p-5"
+        ></div>
+        <div class="col-md">
+          <div class="form-floating">
+            <select
+              class="form-select"
+              id="floatingSelectGrid"
+              aria-label="Floating label select example"
+            >
+              <h2>Deposit or Withdraw funds:</h2>
+              <form id="new-contact">
+                <div class="form-group">
+                  <label for="new-deposit-amount">Deposit Amount</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="new-deposit-amount"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="new-withdraw-amount">Withdraw Amount</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="new-withdraw-amount"
+                  />
+                </div>
+              </form>
+            </select>
+          </div>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
