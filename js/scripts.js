@@ -22,3 +22,7 @@ function resetFields() {
     $("input#new-name").val("");
     $("input#new-initial-deposit").val("");
 }
+
+
+
+
